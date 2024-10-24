@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>惊喜表白</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: #ff69b4;
+        }
+        
+        p {
+            font-size: 1.5em;
+            color: #333;
+        }
+        
+        .heart {
+            font-size: 5em;
+            color: red;
+            animation: heartbeat 1.5s infinite;
+        }
+        
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+        
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Kathy</h1>
+        <p>你是我心中的唯一，愿意和我在一起吗？</p>
+        <div class="heart">❤️</div>
+        <a href="surprise.html" class="btn">点击看看惊喜</a>
+    </div>
+</body>
+
+</html>
